@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Henish Patel (Harry)</h1>
 <p align="center">
-  <strong>Software Engineer & AI/Data Systems Builder</strong><br/>
-  Computer Science @ University of Utah (GPA 3.57) • Data Science Minor
+  <strong>Software Engineer | High-Performance Systems, AI Infrastructure & Distributed Data</strong><br/>
+  Computer Science + Data Science @ University of Utah ('27) (GPA 3.57)
 </p>
 
 <p align="center">
@@ -13,12 +13,13 @@
 
 ---
 
-## 👨‍💻 About Me
+## ⚙️ Engineering Focus
 
-- I build **production-focused software systems** across full-stack, data, and AI.
-- I care about **performance, clean architecture, and real-world impact**.
-- I enjoy shipping fast, iterating from feedback, and turning complexity into clear outcomes.
-- Interests outside code: basketball, soccer, gym, and staying sharp through hands-on projects.
+I engineer high-performance distributed systems, optimize AI infrastructure, and build data pipelines with mathematical rigor. I prioritize immutable state, mechanical sympathy, and zero-trust architectures.
+
+- **Systems & Architecture:** Merkle-tree state management, LSP Extensions, OAuth2/RBAC Security, WebSocket Orchestration.
+- **AI Infrastructure:** CUDA optimization, Distributed Inference, vLLM, TensorRT-LLM, PyTorch.
+- **Data Engineering:** R-tree spatial indexing, Checksum Validation (MD5), Zero-downtime Migrations.
 
 ---
 
@@ -26,80 +27,59 @@
 
 ### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C%23](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 ### Frameworks & Tools
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 
-### Platforms
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)
-![GCP](https://img.shields.io/badge/GCP-1A73E8?style=for-the-badge&logo=googlecloud&logoColor=white)
+### Infrastructure & Databases
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Selected Architecture
 
-- **Local AI Cluster**  
-  Built a 5-node macOS MLX cluster to run large local LLMs and benchmark throughput, latency, and memory behavior.
+- **[NVIDIA Local AI Cluster](#)**  
+  Built a high-performance NVIDIA GPU cluster utilizing **CUDA** and **Docker** for distributed local inference. Benchmarked and optimized Llama 3 (70B) and experimental 405B quantized runs using **vLLM** and **TensorRT-LLM** for low-latency performance.
 
-- **NFL Technical Analysis Engine**  
-  Interactive football play visualization platform using Plotly + JavaScript with frame-level analysis.
+- **[Agentic SaaS Pricing & Identity Layer](#)**  
+  Engineered a high-throughput API metering layer enabling usage-based billing for autonomous agents. Implemented zero-trust agent identities utilizing **Redis** for low-latency rate limiting and concurrency control.
 
-- **Chicago Transit Data System**  
-  End-to-end transit data pipelines and analysis workflows built with Python, SQL, and Excel.
-
-- **Portfolio Website**  
-  Production-ready personal site with advanced motion design and GitHub Pages deployment.  
-  🔗 [View Portfolio](https://henishpatel1214.github.io/henish-portfolio/)
+- **[mySpecSheet Telemetry & State Management](#)**  
+  Architected a "vehicle-as-a-repo" backend leveraging **Merkle-tree versioning** for immutable logging and **MCP Servers** for sandboxed data manipulation.
 
 ---
 
 ## 💼 Experience Snapshot
 
-- **Software Engineer, mySpecSheet (Startup)**  
-  Built product tooling with VSCode OSS + Electron and accelerated feedback-driven iterations.
+- **Full Stack Software Engineer @ mySpecSheet**  
+  Implemented custom **LSP extensions** reducing context switching by 38%, and developed a **WebSocket orchestration layer** achieving sub-50ms latency for telemetry synchronization.
 
-- **SUDO Software Platform Services Intern, University of Utah**  
-  Built dashboards/GIS systems, reducing manual tracking by ~30% and improving response speed by ~25%.
+- **SUDO Software Platform Services Intern @ University of Utah**  
+  Optimized GIS geospatial indexing using **R-trees**, improving spatial query performance by 27%. Architected ETL pipelines reducing processing time from 4 hours to 15 minutes.
 
-- **Data Analyst Intern, University of Utah Health**  
-  Built ETL/reporting automation in Python/Pandas/Excel, reducing manual review effort by ~30%.
+- **Data Analyst Intern @ University of Utah Health**  
+  Led zero-downtime migration to AWS (S3, EC2) implementing strict **MD5 checksum validation** to ensure 100% data integrity across 500GB+ datasets.
 
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=HenishPatel1214&show_icons=true&rank_icon=github&hide_border=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HenishPatel1214&layout=compact&hide_border=true" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=HenishPatel1214&hide_border=true" alt="GitHub streak" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=HenishPatel1214&show_icons=true&rank_icon=github&theme=transparent&hide_border=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HenishPatel1214&layout=compact&theme=transparent&hide_border=true" alt="Top languages" />
 </p>
 
 ---
-
-## 🤝 Connect
-
-<p>
-  <a href="https://www.linkedin.com/in/henishpatel2004/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/HenishPatel1214"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="mailto:harrypatel1214@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
+<p align="center"><i>“Systems fail. Build them so they fail predictably, recover automatically, and log immutably.”</i></p>
