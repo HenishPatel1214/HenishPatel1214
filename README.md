@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Henish Patel (Harry)</h1>
+<h1 align="center">Hi, I'm Henish Patel</h1>
 <p align="center">
   <strong>Software Engineer | High-Performance Systems, AI Infrastructure & Distributed Data</strong><br/>
   Computer Science + Data Science @ University of Utah ('27) (GPA 3.57)
